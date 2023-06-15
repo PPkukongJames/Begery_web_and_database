@@ -1,0 +1,81 @@
+/*-----------------------------------------------------------------------------------------*/
+.header {
+  overflow: hidden;
+  background-color: #ffeed4;
+  height: 120px;
+}
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+.header-right {
+  float: right;
+  margin-top: 18px;
+}
+#logo_top {
+  display: inline-block;
+  float: left;
+  width: 500px;
+  height: 120px;
+  padding-bottom: 2px;
+}
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+/*-----------------------------------------------------------------------------------------*/
+.topnav {
+    overflow: hidden;
+    background-color: #F6DFC6;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.topnav a:hover {
+    background-color: #ffeed4;
+    color: black;
+}
+/*-----------------------------------------------------------------------------------------*/
+.searchbox {
+  float: left;
+  font-family: 'Itim', cursive;
+}
+input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 20px;
+  border: none;
+  font-family: 'Itim', cursive;
+}
+.searchbox button {
+  padding: 8px;
+  margin-top: 23px;
+  margin-left: 10px;
+  background: sandybrown;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Itim', cursive;
+}
+.searchbox button:hover {
+  background: #F6DFC6;
+}

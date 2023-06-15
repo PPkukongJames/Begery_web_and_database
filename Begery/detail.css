@@ -1,0 +1,70 @@
+body{
+    font-family: 'Itim', cursive;
+}
+.buy {
+    font-family: 'Itim', cursive;
+    font-family:courier;
+    font-size: 20px;
+    display: inline-block;
+    background-color: #ffeed4;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 50px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 400px;
+    text-align: center;
+}
+.buy-p{
+    font-family: 'Itim', cursive;
+    background-color: sandybrown;
+    border-radius: 10px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 26px;
+    padding-right: 26px;
+    margin: auto;
+    color: white;
+    font-size: 40px;
+}
+#title{
+    font-family: 'Itim', cursive;
+    background-color: #ffeed4;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#Promote{
+    font-family: 'Itim', cursive;
+    background-color: #ffeed4;
+    border-radius: 25px;
+    padding-bottom: 20px;
+    padding-top: 1px;
+    padding-left: 20px;
+}
+#product{
+    font-family: 'Itim', cursive;
+    display: inline-block;
+    font-size: 24px;
+}
+.search{
+    display: inline-block;
+
+}
+.Mycart{
+    display: inline-block;
+    background-color: #ffeed4;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 50px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 575px;
+    height: 180px;
+}
+
